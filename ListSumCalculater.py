@@ -1,8 +1,12 @@
+# def sum(x):
+#     if x > 0:
+#         return x + sum(x - 1)
+#     else:
+#         return 0
+
+
 def sum(x):
-    if x > 0:
-        return x + sum(x - 1)
-    else:
-        return 0
+    return int(x * (x + 1) / 2)
 
 
 inputList = []
